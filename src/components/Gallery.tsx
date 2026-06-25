@@ -5,12 +5,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiX } from "react-icons/hi";
 
 const galleryImages = [
-  { id: 1, src: "https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", alt: "Elegant nail art" },
-  { id: 2, src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", alt: "Acrylic nail extensions" },
-  { id: 3, src: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", alt: "Beauty care products" },
-  { id: 4, src: "https://images.unsplash.com/photo-1610992015732-2449b76344bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", alt: "Facial treatment" },
-  { id: 5, src: "https://images.unsplash.com/photo-1516975080661-46dcfa2a4f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", alt: "Pedicure spa session" },
-  { id: 6, src: "https://images.unsplash.com/photo-1595868661647-73c360be1b6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", alt: "Gel polish applications" },
+  { id: 1, src: "/service-image7.jpg", alt: "Elegant nail art" },
+  { id: 2, src: "/service-image8.jpg", alt: "Acrylic nail extensions" },
+  { id: 3, src: "/service-image9.jpg", alt: "Beauty care products" },
+  { id: 4, src: "/service-image10.jpg", alt: "Facial treatment" },
+  { id: 5, src: "/service-image11.jpg", alt: "Pedicure spa session" },
+  { id: 6, src: "/service-image12.jpg", alt: "Gel polish applications" },
 ];
 
 export default function Gallery() {
@@ -42,7 +42,7 @@ export default function Gallery() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-gray-600 text-lg"
+            className="text-gray-400 text-lg"
           >
             Browse through our stunning collection of nail designs and beauty transformations.
           </motion.p>
