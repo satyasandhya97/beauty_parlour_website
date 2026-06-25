@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-beige/90 via-beige/70 to-transparent z-10" />
+        <div className="absolute inset-0 bg-linear-to-r from-beige/90 via-beige/70 to-transparent z-10" />
         <img
           src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
           alt="Beautiful nail extensions and beauty care"
@@ -63,7 +63,7 @@ export default function Hero() {
       </div>
 
       {/* Decorative Elements */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.5 }}
@@ -71,7 +71,7 @@ export default function Hero() {
       >
         <span className="text-xs font-semibold tracking-widest uppercase text-charcoal/60">Scroll Down</span>
         <div className="w-[1px] h-12 bg-charcoal/30 relative overflow-hidden">
-          <motion.div 
+          <motion.div
             animate={{ y: [0, 48] }}
             transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
             className="absolute top-0 left-0 w-full h-1/2 bg-charcoal block"

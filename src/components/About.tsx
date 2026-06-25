@@ -19,7 +19,7 @@ export default function About() {
           >
             <div className="relative aspect-4/5 w-full max-w-md mx-auto z-10">
               <img
-                src="https://images.unsplash.com/photo-1521590832167-7bfcbaa6362d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="/service-image14.jpg"
                 alt="Beautiful salon interior"
                 className="w-full h-full object-cover rounded-t-full rounded-b-lg shadow-2xl"
               />
