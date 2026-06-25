@@ -70,7 +70,7 @@ export default function Hero() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 hidden md:flex flex-col items-center gap-2"
       >
         <span className="text-xs font-semibold tracking-widest uppercase text-charcoal/60">Scroll Down</span>
-        <div className="w-[1px] h-12 bg-charcoal/30 relative overflow-hidden">
+        <div className="w-px h-12 bg-charcoal/30 relative overflow-hidden">
           <motion.div
             animate={{ y: [0, 48] }}
             transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}

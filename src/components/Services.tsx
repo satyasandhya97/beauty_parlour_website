@@ -76,7 +76,7 @@ export default function Services() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="group relative overflow-hidden rounded-2xl bg-beige cursor-pointer shadow-sm hover:shadow-xl transition-all duration-300"
             >
-              <div className="aspect-[4/3] w-full overflow-hidden relative">
+              <div className="aspect-4/3 w-full overflow-hidden relative">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300 z-10" />
                 <img
                   src={service.image}
@@ -85,7 +85,7 @@ export default function Services() {
                 />
               </div>
 
-              <div className="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-gray-900 via-gray-900/80 to-transparent text-white z-20">
+              <div className="absolute bottom-0 left-0 w-full p-6 bg-linear-to-t from-gray-900 via-gray-900/80 to-transparent text-white z-20">
                 <h3 className="text-2xl font-heading mb-2 transform translate-y-2 group-hover:translate-y-0 group-hover:text-gold transition-all duration-300">
                   {service.title}
                 </h3>
