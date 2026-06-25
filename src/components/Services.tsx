@@ -7,37 +7,37 @@ const services = [
     id: "nail-extensions",
     title: "Nail Extensions",
     description: "Premium acrylic and gel extensions for beautiful, long-lasting length and strength.",
-    image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/service-image1.jpg",
   },
   {
     id: "nail-art",
     title: "Nail Art Design",
     description: "Custom, intricate designs hand-painted by our master artists.",
-    image: "https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=https://as1.ftcdn.net/jpg/08/11/84/18/1000_F_811841832_N1biLRTFv7tqKBnHJec27oyiWgmTUonF.jpg",
+    image: "/service-image2.jpg",
   },
   {
     id: "mani-pedi",
     title: "Manicure & Pedicure",
     description: "Relaxing pampering sessions for flawless hands and feet.",
-    image: "https://images.unsplash.com/photo-1516975080661-46dcfa2a4f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/service-image3.jpg",
   },
   {
     id: "gel-polish",
     title: "Gel Polish",
     description: "Chip-resistant, high-gloss gel manicures that last for weeks.",
-    image: "https://images.unsplash.com/photo-1595868661647-73c360be1b6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/service-image4.jpg",
   },
   {
     id: "bridal-makeup",
     title: "Bridal Makeup",
     description: "Flawless, elegant makeup applications for your special day.",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/service-image5.avif",
   },
   {
     id: "beauty-treatments",
     title: "Beauty Treatments",
     description: "Rejuvenating facials, threading, and skincare services.",
-    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/service-image6.jpg",
   },
 ];
 
