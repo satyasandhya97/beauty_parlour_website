@@ -17,7 +17,7 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       // Simulate API call to the Next.js API route
       const response = await fetch("/api/contact", {
@@ -53,7 +53,7 @@ export default function Contact() {
     <section id="contact" className="py-24 bg-white relative">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -62,7 +62,7 @@ export default function Contact() {
           >
             Get in <span className="text-gold italic">Touch</span>
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -74,7 +74,7 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
-          
+
           {/* Contact Information & Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -92,7 +92,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-charcoal">Address</h4>
-                    <p className="font-light">123 Elegance Boulevard, Fashion District<br/>City center, 10001</p>
+                    <p className="font-light">123 Elegance Boulevard, Fashion District<br />City center, 10001</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -110,7 +110,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-charcoal">Email</h4>
-                    <p className="font-light">hello@aurabeauty.com</p>
+                    <p className="font-light">tejinderkaur963@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -168,9 +168,9 @@ export default function Contact() {
                     placeholder="How can we help you today?"
                   ></textarea>
                 </div>
-                
-                <Button 
-                  type="submit" 
+
+                <Button
+                  type="submit"
                   className="w-full"
                   disabled={isSubmitting}
                 >

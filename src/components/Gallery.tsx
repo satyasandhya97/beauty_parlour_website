@@ -20,7 +20,7 @@ export default function Gallery() {
     <section id="gallery" className="py-24 bg-beige/30">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -28,7 +28,7 @@ export default function Gallery() {
           >
             Portfolio
           </motion.span>
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -37,7 +37,7 @@ export default function Gallery() {
           >
             Aura <span className="text-gold italic">Gallery</span>
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -83,11 +83,11 @@ export default function Gallery() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4"
+            className="fixed inset-0 z-100 flex items-center justify-center bg-black/90 p-4"
             onClick={() => setSelectedImage(null)}
           >
-            <button 
-              className="absolute top-6 right-6 text-white hover:text-gold transition-colors z-[110]"
+            <button
+              className="absolute top-6 right-6 text-white hover:text-gold transition-colors z-110"
               onClick={(e) => {
                 e.stopPropagation();
                 setSelectedImage(null);

@@ -13,7 +13,7 @@ const services = [
     id: "nail-art",
     title: "Nail Art Design",
     description: "Custom, intricate designs hand-painted by our master artists.",
-    image: "https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=https://as1.ftcdn.net/jpg/08/11/84/18/1000_F_811841832_N1biLRTFv7tqKBnHJec27oyiWgmTUonF.jpg",
   },
   {
     id: "mani-pedi",
@@ -46,7 +46,7 @@ export default function Services() {
     <section id="services" className="py-24 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -55,7 +55,7 @@ export default function Services() {
           >
             Our <span className="text-gold italic">Services</span>
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -84,7 +84,7 @@ export default function Services() {
                   className="w-full h-full object-cover object-center transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
                 />
               </div>
-              
+
               <div className="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-gray-900 via-gray-900/80 to-transparent text-white z-20">
                 <h3 className="text-2xl font-heading mb-2 transform translate-y-2 group-hover:translate-y-0 group-hover:text-gold transition-all duration-300">
                   {service.title}

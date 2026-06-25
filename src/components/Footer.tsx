@@ -48,16 +48,16 @@ export default function Footer() {
             <h4 className="text-lg font-medium mb-6 font-heading tracking-wide">Contact Us</h4>
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-start gap-3">
-                <FaMapMarkerAlt className="mt-1 text-gold flex-shrink-0" />
+                <FaMapMarkerAlt className="mt-1 text-gold shrink-0" />
                 <span>123 Elegance Boulevard, Fashion District, City center, 10001</span>
               </li>
               <li className="flex items-center gap-3">
-                <FaWhatsapp className="text-gold flex-shrink-0" />
+                <FaWhatsapp className="text-gold shrink-0" />
                 <span>+1 (555) 123-4567</span>
               </li>
               <li className="flex items-center gap-3">
-                <FaRegEnvelope className="text-gold flex-shrink-0" />
-                <span>hello@aurabeauty.com</span>
+                <FaRegEnvelope className="text-gold shrink-0" />
+                <span>tejinderkaur963@gmail.com</span>
               </li>
             </ul>
           </div>
