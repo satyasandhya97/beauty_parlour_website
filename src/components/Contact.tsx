@@ -69,7 +69,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-gray-600 text-lg"
           >
-            Ready for a transformation? Contact us to book your appointment or ask any questions about our services.
+            Ready for a transformation? Book your appointment or ask about treatments, availability, and pricing.
           </motion.p>
         </div>
 
@@ -139,7 +139,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-gold bg-white"
-                    placeholder="Your beautifully written name"
+                    placeholder="Your full name"
                   />
                 </div>
                 <div>
@@ -165,7 +165,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-gold bg-white resize-none"
-                    placeholder="How can we help you today?"
+                    placeholder="Tell us your request or preferred date/time"
                   ></textarea>
                 </div>
 

@@ -26,7 +26,7 @@ export default function Gallery() {
             viewport={{ once: true }}
             className="text-rose-gold text-sm font-semibold tracking-wider uppercase mb-2 block"
           >
-            Portfolio
+            Our Work
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -44,7 +44,7 @@ export default function Gallery() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-gray-400 text-lg"
           >
-            Browse through our stunning collection of nail designs and beauty transformations.
+            Explore curated looks showcasing our signature nail designs and beauty transformations.
           </motion.p>
         </div>
 
