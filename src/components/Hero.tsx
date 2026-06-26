@@ -24,7 +24,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <span className="inline-block py-1 px-3 rounded-full bg-rose-gold/20 text-rose-gold text-sm font-semibold tracking-wider mb-6 uppercase">
-              Premium Salon Experience
+              Signature Salon Experience
             </span>
           </motion.div>
 
@@ -34,7 +34,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
             className="text-5xl md:text-6xl lg:text-7xl font-heading text-charcoal leading-tight mb-6"
           >
-            Luxury Nail Extensions & <span className="text-gold italic">Beauty Care</span>
+            Luxury Nail Extensions & <span className="text-gold italic">Tailored Beauty Services</span>
           </motion.h1>
 
           <motion.p
@@ -43,7 +43,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="text-lg md:text-xl text-gray-700 font-light mb-10 max-w-lg leading-relaxed text-balance"
           >
-            Enhance your beauty with stunning nail art, elegant extensions, and professional treatments by master technicians.
+            Discover bespoke nail and beauty treatments crafted by expert technicians for timeless elegance and confidence.
           </motion.p>
 
           <motion.div
@@ -70,7 +70,7 @@ export default function Hero() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 hidden md:flex flex-col items-center gap-2"
       >
         <span className="text-xs font-semibold tracking-widest uppercase text-charcoal/60">Scroll Down</span>
-        <div className="w-[1px] h-12 bg-charcoal/30 relative overflow-hidden">
+        <div className="w-px h-12 bg-charcoal/30 relative overflow-hidden">
           <motion.div
             animate={{ y: [0, 48] }}
             transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}

@@ -50,27 +50,27 @@ export default function About() {
             className="w-full lg:w-1/2"
           >
             <span className="text-rose-gold text-sm font-semibold tracking-wider uppercase mb-4 block">
-              About Our Parlour
+              About Aura Beauty
             </span>
             <h2 className="text-4xl md:text-5xl font-heading text-charcoal mb-6 leading-tight">
-              We provide <span className="text-gold italic">professional</span> beauty services
+              Exceptional, <span className="text-gold italic">professional</span> beauty services
             </h2>
 
             <div className="space-y-4 text-gray-600 font-light mb-8 text-lg leading-relaxed text-balance">
               <p>
-                Welcome to Aura Beauty, where elegance meets professional care. We specialize in premium nail extensions, intricate nail art, and comprehensive beauty services designed to enhance your natural grace.
+                Welcome to Aura Beauty — where elegance meets expert care. We specialize in premium nail extensions, intricate nail art, and bespoke beauty treatments designed to enhance your natural radiance.
               </p>
               <p>
-                Our team of dedicated professionals uses industry-leading products and techniques to ensure long-lasting, beautiful results in a relaxing, luxurious environment. We believe every client deserves to feel pampered and confident.
+                Our experienced team uses high-quality, industry-leading products to deliver long-lasting, beautiful results in a calm, luxurious space. Every visit is crafted to leave you feeling pampered and confident.
               </p>
             </div>
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 text-charcoal font-medium">
               {[
-                "Premium Products",
-                "Certified Professionals",
-                "Relaxing Environment",
-                "Long-lasting Results"
+                "Premium, Cruelty-Free Products",
+                "Experienced & Certified Technicians",
+                "Calming, Luxurious Atmosphere",
+                "Long-Lasting, Reliable Results"
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-gold" />

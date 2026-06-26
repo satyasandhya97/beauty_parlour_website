@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="text-gold">Aura</span> Beauty
             </h3>
             <p className="text-gray-300 font-light leading-relaxed mb-6">
-              Enhance your beauty with stunning nail art, professional extensions, and premium beauty services tailored just for you.
+              Aura Beauty — refined nail art and expert beauty care. Personalized treatments for every occasion, delivered with warmth and precision.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold hover:text-charcoal transition-colors">

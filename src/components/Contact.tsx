@@ -69,7 +69,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-gray-600 text-lg"
           >
-            Ready for a transformation? Contact us to book your appointment or ask any questions about our services.
+            Ready for a transformation? Book your appointment or ask about treatments, availability, and pricing.
           </motion.p>
         </div>
 
@@ -87,7 +87,7 @@ export default function Contact() {
               <h3 className="text-2xl font-heading text-charcoal mb-6">Contact Information</h3>
               <div className="space-y-4 text-gray-700">
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-full bg-rose-gold/10 flex items-center justify-center flex-shrink-0 text-rose-gold">
+                  <div className="w-10 h-10 rounded-full bg-rose-gold/10 flex items-center justify-center shrink-0 text-rose-gold">
                     <FaMapMarkerAlt />
                   </div>
                   <div>
@@ -96,7 +96,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-rose-gold/10 flex items-center justify-center flex-shrink-0 text-rose-gold">
+                  <div className="w-10 h-10 rounded-full bg-rose-gold/10 flex items-center justify-center shrink-0 text-rose-gold">
                     <FaPhoneAlt />
                   </div>
                   <div>
@@ -105,7 +105,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-rose-gold/10 flex items-center justify-center flex-shrink-0 text-rose-gold">
+                  <div className="w-10 h-10 rounded-full bg-rose-gold/10 flex items-center justify-center shrink-0 text-rose-gold">
                     <FaRegEnvelope />
                   </div>
                   <div>
@@ -120,7 +120,7 @@ export default function Contact() {
                   <FaWhatsapp size={20} />
                   <span className="font-medium">WhatsApp Us</span>
                 </a>
-                <a href="#" className="flex items-center justify-center w-12 h-12 bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 text-white rounded-full hover:opacity-90 transition-opacity shadow-md">
+                <a href="#" className="flex items-center justify-center w-12 h-12 bg-linear-to-tr from-yellow-400 via-red-500 to-purple-500 text-white rounded-full hover:opacity-90 transition-opacity shadow-md">
                   <FaInstagram size={20} />
                 </a>
               </div>
@@ -139,7 +139,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-gold bg-white"
-                    placeholder="Your beautifully written name"
+                    placeholder="Your full name"
                   />
                 </div>
                 <div>
@@ -165,7 +165,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-gold bg-white resize-none"
-                    placeholder="How can we help you today?"
+                    placeholder="Tell us your request or preferred date/time"
                   ></textarea>
                 </div>
 
@@ -193,7 +193,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="h-full min-h-[500px] rounded-2xl overflow-hidden shadow-xl"
+            className="h-full min-h-125 rounded-2xl overflow-hidden shadow-xl"
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2528001712!2d-74.1444877797743!3d40.69763123326177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1701103000000!5m2!1sen!2s"
@@ -203,7 +203,7 @@ export default function Contact() {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="grayscale-[20%] contrast-125 hover:grayscale-0 transition-all duration-700"
+              className="grayscale-20 contrast-125 hover:grayscale-0 transition-all duration-700"
             />
           </motion.div>
 
