@@ -6,37 +6,37 @@ const services = [
   {
     id: "nail-extensions",
     title: "Nail Extensions",
-    description: "Premium acrylic and gel extensions for beautiful, long-lasting length and strength.",
+    description: "Custom acrylic and gel extensions with expert shaping for durable length and strength.",
     image: "/service-image1.jpg",
   },
   {
     id: "nail-art",
     title: "Nail Art Design",
-    description: "Custom, intricate designs hand-painted by our master artists.",
+    description: "Unique hand-painted nail art — florals, geometrics, and seasonal styles.",
     image: "/service-image2.jpg",
   },
   {
     id: "mani-pedi",
     title: "Manicure & Pedicure",
-    description: "Relaxing pampering sessions for flawless hands and feet.",
+    description: "Spa manicures and pedicures with exfoliation, massage, and polish finish.",
     image: "/service-image3.jpg",
   },
   {
     id: "gel-polish",
     title: "Gel Polish",
-    description: "Chip-resistant, high-gloss gel manicures that last for weeks.",
+    description: "High-gloss, long-lasting gel polish cured for superior chip resistance.",
     image: "/service-image4.jpg",
   },
   {
     id: "bridal-makeup",
     title: "Bridal Makeup",
-    description: "Flawless, elegant makeup applications for your special day.",
+    description: "Bridal and event makeup tailored to your style for a flawless finish.",
     image: "/service-image5.avif",
   },
   {
     id: "beauty-treatments",
     title: "Beauty Treatments",
-    description: "Rejuvenating facials, threading, and skincare services.",
+    description: "Facials, waxing, and targeted skincare treatments for radiant skin.",
     image: "/service-image6.jpg",
   },
 ];
